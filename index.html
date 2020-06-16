@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quize Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--<h1>Quize Game</h1>-->
+    <section class="game-container">
+      <div class="game-info">
+        <div class="categorie">
+          Categorie: <span>HTML</span>
+        </div>
+        <div class="count">
+          Questions: <span></span>
+        </div>
+      </div>
+      <h2 class="result">You Got <span></span> answers From The Quize</h2>
+      <p class="bad">"Bad result"</p>
+      <p class="good">"Good !!"</p>
+      <p class="perfect">"Perfect"</p>
+      <img class="refresh" src="refresh.png" alt="">
+      <div class="question-container">
+
+      </div>
+
+      <div class="game-param">
+        <div class="counter">
+          <img src="timer.png" alt="">
+          <p class="time"><p>
+        </div>
+        <button class="submit-btn">next question</button>
+      </div>
+      <div class="pagination">
+      </div>
+    </section>
+    <audio class="audio" src="lose.mp3">
+
+    </audio>
+    <script src="app.js"></script>
+  </body>
+</html>

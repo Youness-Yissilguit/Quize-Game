@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 36px;
+  display: inline-block;
+  background-color: #222;
+  padding: 15px 50px;
+  border-radius: 50px;
+  color: #fff;
+}
+.game-container{
+  width: 700px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 20px #e8e8e8;
+  margin: 20px auto;
+}
+.game-container .game-info{
+  background-color: #d5fdf5;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+.game-container .game-info span{
+  font-weight: bold;
+  font-size: 18px
+}
+.question{
+  color: #1abc9c;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+.Prospect{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  color: #000;
+  cursor: pointer;
+}
+.Prospect:hover{
+  background-color: #f0f0f0
+}
+.Prospect span{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #1abc9c;
+  font-weight: bold;
+}
+.Prospect label{
+  margin-left: 10px;
+  flex: 1;
+  text-align: left;
+  color: #000
+}
+.Prospect input{
+  width: 50px;
+}
+.Prospect input[type="radio"]:checked + label{
+  color: #000;
+  font-weight: bold
+}
+.game-param{
+  background-color: #f0f0f0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+.game-param .counter{
+  font-size: 24px;
+  font-weight: 500;
+}
+.game-param .submit-btn{
+  font-size: 18px;
+  background-color: #222;
+  color: #fff;
+  border: 0;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .3s
+}
+.game-param .submit-btn:hover{
+  background-color: #1abc9c;
+  color: #000;
+}
+.game-param .time{
+  display: inline-block
+}
+.pagination{
+  padding: 15px;
+}
+.pagination span{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #1abc9c;
+  opacity: .4
+}
+.pagination span.on{
+  opacity: 1
+}
+.result{
+  font-size: 24px;
+  margin-top: 40px;
+  display: none;
+  margin-bottom: 20px
+}
+.bad, .good, .perfect{
+  display: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.bad{
+  color: red
+}
+.good{
+  color: green
+}
+.perfect{
+  color: blue
+}
+.refresh{
+  cursor: pointer;
+  margin:0px auto 20px;
+  display: none
+}
+.show{
+  display: block
+}
