@@ -156,3 +156,12 @@ h1{
 .show{
   display: block
 }
+@media (max-width: 768px) {
+  .game-container{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 20px #e8e8e8;
+    margin: 20px 10px;
+  }
+}
